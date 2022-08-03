@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+  background: #4572e8;
+  padding: 20px 0;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  text-decoration: underline;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.pesquisa {
+  margin-top: 50px;
+}
+
+.pesquisa form {
+  display: flex;
+  gap: 15px;
+}
+
+.pesquisa form input {
+  width: 85%;
+  height: 50px;
+  padding: 9px;
+  background: #e7e7e7;
+  border: 1px solid #e7e7e7;
+}
+
+.pesquisa form button {
+  width: 15%;
+  height: 50px;
+  border: 1px solid #4572e8;
+  color: white;
+  background: #4572e8;
+  cursor: pointer;
+}
+
+.postagem {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.titulo-1 {
+  font-size: 41px;
+}
+
+.paragrafo {
+  font-size: 18px;
+  line-height: 34px;
+}
+
+.postagem-2 {
+  display: flex;
+  gap: 16px;
+  padding: 32px 0;
+}
+
+.lista-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.lista-card main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.lista-card main p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.lista-card main a {
+  font-size: 14px;
+  color: #4572e8;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.lista-card main a:hover {
+  text-decoration: underline;
+}
